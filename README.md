@@ -5,6 +5,7 @@
 # Redux Store
 An E-commerce site built using Redux.
 
+![](shop-screenshot.jpg)
 
 # :memo: Description 
 
@@ -24,3 +25,6 @@ An E-commerce site built using Redux.
     THEN I find that the app uses Redux instead of the Context API
     WHEN I review the way the app dispatches actions
     THEN I find that the app uses Redux instead of the Context API
+
+# Code Credit
+(https://github.com/deannapi)
