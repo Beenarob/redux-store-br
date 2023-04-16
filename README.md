@@ -1,32 +1,26 @@
-# 📐 Add Comments to Implementation of a Reducer
+<div align="center">
 
-Work with a partner to add comments describing the functionality of the code found in [reducers.js](./Unsolved/client/src/utils/reducers.js).
+![](redux.png)
 
-## 📝 Notes
+# Redux Store
+An E-commerce site built using Redux.
 
-What is the purpose of the action argument that gets passed to the reducer function?
 
-How can we account for multiple types of actions inside the reducer?
+# :memo: Description 
 
-Refer to the documentation:
+</div>
 
-[React documentation on useReducer](https://reactjs.org/docs/Hooks-reference.html#usereducer)
-
----
-
-## 💡 Hints
-
-How do we make sure that the database is seeded?
-
-Which `npm` package allows us to run both the front end and the back end at the same time? How do you start it?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* Why do we create variable names for each action type in `actions.js`?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+    AS a senior engineer working on an e-commerce platform
+    I WANT my platform to use Redux to manage global state instead of the Context API
+    SO THAT my website's state management is taken out of the React ecosystem
+    GIVEN an e-commerce platform that uses Redux to manage global state
+    WHEN I review the app’s store
+    THEN I find that the app uses a Redux store instead of the Context API
+    WHEN I review the way the React front end accesses the store
+    THEN I find that the app uses a Redux provider
+    WHEN I review the way the app determines changes to its global state
+    THEN I find that the app passes reducers to a Redux store instead of using the Context API
+    WHEN I review the way the app extracts state data from the store
+    THEN I find that the app uses Redux instead of the Context API
+    WHEN I review the way the app dispatches actions
+    THEN I find that the app uses Redux instead of the Context API
