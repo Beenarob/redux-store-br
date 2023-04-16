@@ -44,24 +44,3 @@ const startApolloServer = async (typeDefs, resolvers) => {
   
 // Call the async function to start the server
   startApolloServer(typeDefs, resolvers);
-
-// database.js
-
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://beenarob:<kronos>@cluster0.2nplcvk.mongodb.net/?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true });
-
-async function connect() {
-  try {
-    await client.connect();
-    console.log("Connected to MongoDB");
-  } catch (err) {
-    console.error(err);
-  }
-}
-
-function getDb() {
-  return client.db("<database-name>");
-}
-
-module.exports = { connect, getDb };
