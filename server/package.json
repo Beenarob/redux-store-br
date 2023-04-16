@@ -1,7 +1,7 @@
 {
   "name": "mern-shopping",
   "homepage": "https://github.com/Beenarob/redux-store-br",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "engines": {
     "node": "12.16.3"
   },
